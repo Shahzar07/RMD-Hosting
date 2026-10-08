@@ -34,6 +34,12 @@ npm run build                # production build
 
 The supplied 47-second ChinaFY concept guided the split hero, neutral sans typography, lavender/yellow palette, restrained rounded controls, 3D laptop composition, floating cards, plan panels, conversational form and oversized footer. All product content and branding are RMDHost. The laptop is a responsive CSS 3D object with a custom SVG screen illustration, pointer movement, slow continuous motion and three manually selectable scenes. It is not a captured video. The precise original font, textures and animation source were not supplied; Arial/Helvetica system fonts and rebuilt motion approximate them.
 
+The revised home experience follows the reference's sequence rather than relying on repeated fade-ins: an expanding intro, masked headline entrance and rolling highlights, layered browser previews, scrolling type, a four-card horizontal service rail, lifted workload cards, a process panel that rotates and shrinks into a pinned solutions stack, staggered plans/form fields, and scattered footer labels. Every block connects to actual hosting products or an enquiry action. Workload examples and operating environments replace fabricated customer and partner claims.
+
+GSAP ScrollTrigger controls the scroll-linked choreography. Lenis provides smooth wheel scrolling with native touch handling and anchor links. A single runtime initializes after the streamed homepage is ready, owns route-scoped animation cleanup, refreshes when catalogue cards or layout dimensions change, and pauses smooth scrolling while the navigation drawer is open. Desktop pinning is limited to screens over 760px wide and at least 700px tall; compact screens use native horizontal swiping and short card entrances. Content stays readable when motion is disabled or the enhancement fails.
+
+All motion respects reduced-motion preferences. Hero slides can be paused, menus support Escape and focus trapping, and content remains visible without JavaScript. USD/GBP, theme and cookie choices persist locally. There are no third party analytics or marketing scripts.
+
 All motion respects reduced-motion preferences. Hero slides can be paused, menus support Escape and focus trapping, and content remains visible without JavaScript. USD/GBP, theme and cookie choices persist locally. There are no third party analytics or marketing scripts.
 
 ## Catalogue and admin
